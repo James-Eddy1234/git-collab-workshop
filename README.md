@@ -21,8 +21,8 @@ Official documentation for this process is available [here](https://docs.github.
 
 Make Pull Requests for each branch _**in order**_ (`feat/merge-1`, `feat/merge-2`, etc) and try merging them into main! Some of them will have merge conflicts you have to resolve.
 
-### 3. Setup your Development Enviornment
-1. Create a virtual enviornment to isolate dependencies:
+### 3. Setup your Development Environment
+1. Create a virtual environment to isolate dependencies:
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
@@ -53,8 +53,8 @@ Group members should recieve an invite in their email. Once they accept everyone
 ### 2. Implementing New Features 
 1. Each group member should select a feature from the list below to implement
  - Allow users to specify the character for the box
- - Allow users to specify a message inside the box
- - Add a check to ensure user input is positive
+ - Allow users to specify a fill character 
+ - Add a check to ensure user input is not negative
 
 2. Each group member should create a new branch to work on
 ```bash
@@ -64,5 +64,5 @@ git switch -c <branch-name>
 
 3. Implement your feature
 4. Create a Pull Request (PR) for your branch 
-5. Get a group member to approve your PR and then merge
+5. Get a group member to reviewa and approve your PR and then merge
 
